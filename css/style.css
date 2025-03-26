@@ -921,7 +921,6 @@ ul {
 
 .checkbox-input:checked+.form-label .insert {
     background-color: #404bbf;
-    ;
 
     border: none;
 }
