@@ -870,8 +870,23 @@ ul {
 .checkbox-label {
     display: inline;
     font-size: 12px;
-    color: #6c757d;
+    color: #8e8f99;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 
+
+}
+
+.insert {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier (0.4, 0, 0.2, 0, 2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
 
 .checkbox-label input {
@@ -879,21 +894,11 @@ ul {
 
 }
 
-.checkbox-label span {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #777;
-    border-radius: 4px;
-    display: inline-block;
-    position: relative;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.checkbox-label input:checked+span {
-    background-color: #bf4046;
-    border-color: #bf4046;
+.form-link {
+    color: #4d5ae5;
 
 }
+
 
 
 
