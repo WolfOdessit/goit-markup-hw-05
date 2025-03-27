@@ -922,12 +922,13 @@ ul {
 .checkbox-input:checked+.form-label .insert {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
-.checkbox-input:checked+label .insert .icon-checkbox {
+/*.checkbox-input:checked+.form-label .insert .icon-checkbox {
     fill: #F4F4FD;
 
-}
+}*/
 
 .form-btn {
     font-family: "Roboto", sans-serif;
