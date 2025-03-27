@@ -921,11 +921,10 @@ ul {
 
 .checkbox-input:checked+.form-label .insert {
     background-color: #404bbf;
-
     border: none;
 }
 
-.checkbox-input:checked+.form-label .insert .icon-checkbox {
+.checkbox-input:checked+label .insert .icon-checkbox {
     fill: #F4F4FD;
 
 }
